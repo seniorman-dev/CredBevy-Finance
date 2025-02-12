@@ -1,0 +1,41 @@
+name: credbevy
+description: "CredBevy App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  #most powerful and awesome state management (GETX)
+  get: ^4.6.0
+
+  #for local storage (Better than SharedPreference)
+  get_storage: ^2.0.3
+  #for network calls and jwt decoder
+  http: ^1.1.2
+  jwt_decoder: ^2.0.1
+  google_fonts: ^6.0.0
+  loading_animation_widget: ^1.2.0+4
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.7
+  #for network calls, network connection checks & jwt decoder
+  internet_connection_checker: ^1.0.0+1
+  #screen util (enhances mobile responsiveness)
+  flutter_screenutil: ^5.9.0
+  flutter_animate: ^4.5.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svg/
